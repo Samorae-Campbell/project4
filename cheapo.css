@@ -1,0 +1,503 @@
+html { 
+  background: url(mail.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.logo{
+	font-family: Impact;
+	font-size: 50px;
+	width: 100%;
+	height: 40px;
+	background-color: #FFF;
+	color:yellow;
+	text-align: center;
+	text-shadow: 5px 5px 5px black;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-top: 0%;
+	padding-bottom: 3%;
+	border: 2px solid black;
+}
+
+body{
+	/*background-image: url('philosophy.png');
+	background-repeat: no-repeat;
+	background: center center fixed;
+	background-size: cover;  <--- Fun stuff */ 
+	color: black;
+	font-size: 87.5%; /* Base font size is usually 14 (pixels) */
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align:left;
+
+	
+}
+a{
+	/*pointer-events:none;*/
+	text-decoration: none; /* takes link off the line*/
+}
+
+a:link, a:visited{
+	color: #CF5C3F;
+	
+	
+}
+
+a:hover, a:active{
+	background-color: #CF5C3F;
+	color: #FFF;
+}
+
+.body{
+	margin: 0 auto; 
+	width: 70%;
+	clear: both;
+	
+}
+
+.mainheader.img{
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+	
+}
+
+.mainheader nav{
+	font-weight: bold;
+	background-opacity:0.25; /* or color can go here.... */
+	height: 40px;
+	border-radius: 5px; /*gives the roundness of the boxes used in the shapping - can be used anywhere in the code*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-style: inset;
+	padding-bottom: 3px;
+}
+
+.mainheader nav ul{
+	list-style: none;
+	margin: 0 auto; /* already has margin at 2% because it's apart of body, so avoiding other margin */
+    
+}
+
+.mainheader nav ul li{
+	float: left;
+	display: inline;
+
+}
+
+.mainheader nav a:link, .mainheader nav a:visited{
+	color: #FFF;
+	display: inline-block;
+	padding:10px 75px; /*spacing of 10 pixels top and bottom and 25 pixels left and right*/
+	height: 20px; /* nav is 40 pixels height so 10 pixel paddings leave 20 pixels for the text height*/
+	opacity: 1;
+	margin-left: 3px;
+	margin-right: 3px;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-moz-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-webkit-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+
+}
+
+.mainheader nav a:hover ,  .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited{
+	background-color: #CF5C3F;
+	color: #FFF;
+	text-shadow: none; /* no overlappingggg*/
+	border: #999 1px groove;
+}
+
+.mainheader nav ul li a{
+	border-radius: 2px; /*gives the roundness of the boxes used in the shapping - can be used anywhere in the code*/
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	opacity: 0.5;
+}
+
+
+
+.maincontent {
+	line-height: 25px;
+	border-radius: 5px; /*gives the roundness of the boxes used in the shapping - can be used anywhere in the code*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content{
+	width:70%;
+	/*background-color:;*/
+	float: left; /*keeps it left all the time*/
+	border-radius: 5px; /*gives the roundness of the boxes used in the shapping - can be used anywhere in the code*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+
+.topcontent{
+	background-color: #E6E6E6;
+	border-radius: 5px; /*gives the roundness of the boxes used in the shapping - can be used anywhere in the code*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.topcontent form{
+	padding-top: 5%;
+	margin-left: 37%;
+	font-size: 30px;
+}
+
+.login{
+	width:50%;
+	margin-left: -15px;
+	font-size: 150;
+	font-weight: bold;
+}
+
+.login_form{
+	background-color:#82C4E6;
+	border-radius: 5px; /*gives the roundness of the boxes used in the shapping - can be used anywhere in the code*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding-left:200px;
+}
+
+.othercontent{
+	background-color: #E6E6E6;
+	border-radius: 5px; /*gives the roundness of the boxes used in the shapping - can be used anywhere in the code*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.bottomcontent{
+	background-color: #E6E6E6;
+	border-radius: 5px; /*gives the roundness of the boxes used in the shapping - can be used anywhere in the code*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.top-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #E6E6E6;
+	border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2% 0 2% 3%; /* top right left bottom*/
+	padding: 2% 3%;
+	
+}
+
+.middle-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #E6E6E6;
+	border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+	
+}
+
+.bottom-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #E6E6E6;
+	border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+	
+}
+
+.bottomlogo{
+	text-align: center;
+	width:100%;
+	padding-top: 50%;
+	margin-top: 10%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.mainfooter {
+	background-color: #666;
+	height: 50px;
+	width: 100%;
+	float: left;
+	margin: auto; /*top and bottom then left and right */
+	clear:both;
+	border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainfooter p {
+	width: 92%;
+	margin: 1% auto;
+	padding: 1px 25px;
+	color: #FFF;
+	text-shadow: 2px 2px 2px #fff;
+}
+
+.mainfooter p img{
+	width: 3%;
+	height: 8%;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+}
+
+
+.post_info {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+
+
+/*-----------------SUbheaders and other pages-------------------*/
+
+.subheader{
+	/*background-image: url('mmm.lnk');*/
+	background-color: #FFBF00;
+	text-align: center;
+	color: grey;
+	font-family: Arial;
+	font-size: 30px;
+	width: 100%;
+	height: 100px;
+	border-radius: 20px; 
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.subsubheader{
+	text-align: center;
+	color: grey;
+	font-family: Arial;
+	font-size: 30px;
+	width: 100%;
+	height: 100px;
+}
+
+.message{
+	background-color: white;
+	border: 2px inset black;
+	border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 3%;
+	margin-bottom: 10px;
+	height: 240px;
+ 	clear: both;
+	
+}
+
+#unread{
+	font-weight: bold;
+}
+
+
+
+.message h3{
+	font-size: 50px;
+	/*margin-bottom: -30px;
+	padding-top: -20px;
+	padding-left: 220px;*/
+	border: 1px inset black;
+	height: 70px;
+	background-color: 	#74AFEA;
+	padding-top: 20px;
+	margin-top: 35px;
+	margin-bottom: -20px;
+}
+
+/*.message p{
+	/*padding-left:230px;
+	border: 1px inset black;
+	background-color: #A3A3F5;
+	text-align: center;
+}*/
+
+
+.form{
+ 	float: left;
+	background-color: green;
+
+}
+
+
+/*--------------------------------------------------------------*/ 
+/* images */
+
+.topcontent img, .othercontent img, .bottomcontent img{
+	width: 100%;
+	height: 350px;
+}
+
+.top-sidebar img, .middle-sidebar img, .bottom-sidebar img{
+	height: 200px;
+	width: 100%;
+}
+
+/*---------------------------------------------------------------*/
+
+/*-------------------Flip cards and tools------------------------*/
+.flip3D{
+	width:40%;
+	height:200px;
+	margin:10px;
+	float:left;
+	clear:both;
+	margin-bottom:50px;
+}
+
+.flip3D > .front{
+	position:absolute;
+	-webkit-transform: perspective( 1000px ) rotateY( 0deg );
+	transform: perspective( 1000px ) rotateY( 0deg );
+	background:#908989;
+	width:34%;
+	padding-left: 3%;
+	padding-right: 3%;
+	height:200px;
+	border-radius:6px;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform 0.5s linear 0s;
+	transition: transform 0.5s linear 0s;
+}
+
+.flip3D > .back{
+	position:absolute;
+	-webkit-transform: perspective( 1000px ) rotateY( 180deg );
+	transform: perspective( 1000px ) rotateY( 180deg );
+	/*background:#4a55dd;*/
+	width:37%;
+	height:200px;
+	border-radius:6px;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	transition: -webkit-transform 0.5s linear 0s;
+	transition: transform 0.5s linear 0s;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 3%;
+}
+
+.frontp{
+	/*padding-left:230px;*/
+	border: 1px inset black;
+	background-color: #A3A3F5;
+	text-align: center;
+}
+
+.backp{
+	padding-left: 10px;
+}
+
+.flip3D:hover > .front{
+	-webkit-transform: perspective( 1000px ) rotateY( -180deg );
+	transform: perspective( 1000px ) rotateY( -180deg );
+
+}
+
+.flip3D:hover > .back{
+	-webkit-transform: perspective( 1000px ) rotateY( 0deg );
+	transform: perspective( 1000px ) rotateY( 0deg );
+
+}
+
+
+/*--------------------------end of flip cards code-----------------*/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px){
+	.body{
+	width: 90%;
+	font-size: 95%;
+	}
+	
+	.mainheader.img{
+	width: 100%;
+	}
+	
+	.mainheader nav{
+	
+		height: 160px;
+	
+	}
+
+	.mainheader nav ul{
+		padding-left: 0;
+	}
+
+	.mainheader nav ul li{
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainheader nav a:link, .mainheader na a:visited{
+		padding:10px 25px; /*spacing of 10 pixels top and bottom and 25 pixels left and right*/
+		height: 20px; /* nav is 40 pixels height so 10 pixel paddings leave 20 pixels for the text height*/
+	    display: block;
+	}
+	
+	.content{
+		width:100%;
+		float: left; /*keeps it left all the time*/
+		margin-top: 2%;
+	}
+	
+	.post_info{
+		display: none;
+	}
+		
+
+	.topcontent{
+		
+		margin-top: 2%;
+		margin-bottom: 3%;
+	}
+
+	.bottomcontent{
+		margin-top: 3%;
+	}
+	
+	.top-sidebar, .middle-sidebar, .bottom-sidebar{
+		width: 94%;
+		margin: 2% 0 2% 0;
+		padding: 2% 3%;
+	}
+
+}
+
+
+	
+
+
+
+
+
+
